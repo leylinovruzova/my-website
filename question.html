@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Leyli's Resume">
+  <meta name="author" content="Leyli">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+
+    <h3>
+        <a href="index.html">Home</a> |
+        <a href="education.html">Education</a> |
+        <a href="shedule.html">Weekly Schedule</a> |
+        <a href="contact.html">Contact Me</a> |
+        <a href="question.html">Questionnaire</a>
+    </h3>
+    <hr>
+
+    <h1>Questionnaire</h1>
+    <form action="mailto: leylinovruzovavugar@gmail.com" method="post" enctype="text/plain">
+        <p>
+            <label for="yourname">Your full name:</label>
+            <input type="text" name="name"><br>
+        </p>
+
+        <p>
+            <label>Are you SITE student?</label>
+            <input type="radio" name="student" value="Yes">Yes
+            <input type="radio" name="student" value="No">No
+        </p>
+
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female
+            </label><br>
+        </p>
+
+        <p>
+            <label>Languages that you know:</label>
+            <br>
+            <input type="checkbox" name="language" value="HTML">HTML
+            <input type="checkbox" name="language" value="CSS">CSS
+            <input type="checkbox" name="language" value="JavaScript">JavaScript
+            <input type="checkbox" name="language" value="Python">Python
+            <input type="checkbox" name="language" value="C++">C++
+        </p>
+
+        <p>
+            <label>How would you rate this ?</label>
+            <select name="rating">
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Okay</option>
+                <option value="2">2 - Need work</option>
+                <option value="1">1 - Poor</option>
+            </select>
+        </p>
+
+        <label for="content">Any questions:</label><br>
+                <textarea name="message" rows="5" cols="40"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+        <p><a href="index.html">&#128281; Back Home</a></p>
+
+    <footer>
+    <hr>
+        <p>&#169; 2025 Leyli Novruzova</p>
+    </footer>
+</body>
+</html>
